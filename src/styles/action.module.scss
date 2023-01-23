@@ -1,0 +1,20 @@
+.action {
+  display: flex;
+  flex-direction: column;
+
+  hr {
+    width: 28vw;
+    margin-bottom: 1em;
+  }
+
+  span {
+    color: inherit;
+    font-weight: 900;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+}

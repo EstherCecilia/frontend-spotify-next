@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: url("https://m.media-amazon.com/images/I/91tYl9X2wNL.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  div {
+    position: relative;
+    background-color: rgba(10, 23, 55, 0.5);
+    width: 100vw;
+    padding: 2.5em 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  button {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+  }
+}

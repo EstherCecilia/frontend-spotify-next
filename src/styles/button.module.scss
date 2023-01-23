@@ -1,0 +1,23 @@
+.button {
+  border-radius: 500px;
+  font-size: inherit;
+  padding: 14px 32px;
+}
+
+.outline {
+  border: 1px solid var(--essential-subdued, #878787);
+  color: var(--text-base, #878787);
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.complete {
+  background-color: var(--background-base, #1ed760);
+  color: var(--text-base, #000000);
+  &:hover {
+    background-color: var(--background-base, #1ed760);
+    opacity: 0.8;
+  }
+}

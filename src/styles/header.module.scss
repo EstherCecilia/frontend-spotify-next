@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  svg {
+    height: 3.5em;
+    margin-bottom: 1.5em;
+  }
+
+  hr {
+    width: 100vw;
+  }
+}

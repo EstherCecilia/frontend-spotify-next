@@ -1,0 +1,15 @@
+.check {
+  display: flex;
+
+  input {
+    cursor: pointer;
+    width: 1em;
+    accent-color: var(--background-base, #1ed760);
+    margin-right: 1em;
+  }
+
+  label {
+    margin: 0;
+    padding: 0;
+  }
+}

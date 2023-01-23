@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+
+  a {
+    margin-top: 1em;
+  }
+
+  div {
+    margin-bottom: 0.7em;
+  }
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 2em;
+}
