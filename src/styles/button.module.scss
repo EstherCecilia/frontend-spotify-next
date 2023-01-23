@@ -1,23 +1,23 @@
 .button {
-  border-radius: 500px;
-  font-size: inherit;
+  border-radius: 500px !important;
+  font-size: inherit !important;
   padding: 14px 32px;
 }
 
 .outline {
-  border: 1px solid var(--essential-subdued, #878787);
-  color: var(--text-base, #878787);
+  border: 1px solid var(--essential-subdued, #878787) !important;
+  color: var(--text-base, #878787) !important;
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.8 !important;
   }
 }
 
 .complete {
-  background-color: var(--background-base, #1ed760);
-  color: var(--text-base, #000000);
+  background-color: var(--background-base, #1ed760) !important;
+  color: var(--text-base, #000000) !important;
   &:hover {
     background-color: var(--background-base, #1ed760);
-    opacity: 0.8;
+    opacity: 0.8 !important;
   }
 }

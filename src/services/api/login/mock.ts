@@ -13,5 +13,6 @@ export const postLogin: PostLogin = async (
 ): Promise<LoginResponse> => {
   console.log("postLogin", request);
   await freeze();
+
   return mockedPostLoginResponse();
 };
